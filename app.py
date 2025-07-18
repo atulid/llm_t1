@@ -61,6 +61,7 @@ if st.button("Ask") and question:
         if openai_api_key:
             openai.api_key = openai_api_key
             prompt = f"Context:\n{context}\n\nQuestion: {question}\n\nAnswer:"
+            client = openai.OpenAI()
             response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[
