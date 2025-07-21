@@ -1,4 +1,7 @@
 streamlit
 numpy
+pillow
+pytesseract
 scikit-learn
 openai
+
