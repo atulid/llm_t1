@@ -1,6 +1,6 @@
 streamlit
-scikit-learn
-openai
 numpy
 pillow
 pytesseract
+scikit-learn
+openai
